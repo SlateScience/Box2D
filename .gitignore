@@ -18,3 +18,5 @@ src/Build/glui/cmake_install.cmake
 src/Build/Box2D/Makefile
 src/Build/Box2D/cmake_install.cmake
 src/Build/xcode/Box2D.xcodeproj/xcuserdata
+src/Build/xcode/build
+src/lib/include
