@@ -1286,6 +1286,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				EXECUTABLE_PREFIX = lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OBJROOT = build/;
 				PRODUCT_NAME = "Box2D-ios_d";
 				SDKROOT = iphoneos;
@@ -1300,6 +1301,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
 				EXECUTABLE_PREFIX = lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OBJROOT = build/;
 				PRODUCT_NAME = "Box2D-ios";
 				SDKROOT = iphoneos;
