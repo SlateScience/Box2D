@@ -288,7 +288,7 @@
 		4C05D103187D5F9700D180D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C05D111187D5F9800D180D9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4C05D114187D5F9800D180D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4C8E7A09187D773F00F87877 /* libBox2D-ios_d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libBox2D-ios_d.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8E7A09187D773F00F87877 /* libBox2D_d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBox2D_d.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		80154ACD141DED6B00C8251F /* Tumbler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tumbler.h; sourceTree = "<group>"; };
 		80BB8901141C3E1800F1753A /* libGLUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGLUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BB890A141C3E2700F1753A /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -850,7 +850,7 @@
 				80BB8901141C3E1800F1753A /* libGLUI.a */,
 				80BB890A141C3E2700F1753A /* HelloWorld */,
 				80BB8918141C3E3600F1753A /* Testbed */,
-				4C8E7A09187D773F00F87877 /* libBox2D-ios_d.a */,
+				4C8E7A09187D773F00F87877 /* libBox2D_d.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -994,7 +994,7 @@
 			);
 			name = "Box2D-ios";
 			productName = Box2D;
-			productReference = 4C8E7A09187D773F00F87877 /* libBox2D-ios_d.a */;
+			productReference = 4C8E7A09187D773F00F87877 /* libBox2D_d.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		80BB8900141C3E1800F1753A /* GLUI */ = {
@@ -1288,9 +1288,9 @@
 				EXECUTABLE_PREFIX = lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OBJROOT = build/;
-				PRODUCT_NAME = "Box2D-ios_d";
+				PRODUCT_NAME = Box2D_d;
 				SDKROOT = iphoneos;
-				SYMROOT = ../../lib/;
+				SYMROOT = ../../../lib/ios/;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1303,9 +1303,9 @@
 				EXECUTABLE_PREFIX = lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OBJROOT = build/;
-				PRODUCT_NAME = "Box2D-ios";
+				PRODUCT_NAME = Box2D;
 				SDKROOT = iphoneos;
-				SYMROOT = ../../lib/;
+				SYMROOT = ../../../lib/ios/;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1417,7 +1417,7 @@
 				EXECUTABLE_PREFIX = lib;
 				OBJROOT = build/;
 				PRODUCT_NAME = "$(TARGET_NAME)_d";
-				SYMROOT = ../../lib/;
+				SYMROOT = ../../../lib/macosx/;
 			};
 			name = Debug;
 		};
@@ -1429,7 +1429,7 @@
 				EXECUTABLE_PREFIX = lib;
 				OBJROOT = build/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SYMROOT = ../../lib/;
+				SYMROOT = ../../../lib/macosx/;
 			};
 			name = Release;
 		};
