@@ -21,3 +21,4 @@ src/Build/xcode/Box2D.xcodeproj/xcuserdata
 src/Build/xcode/build
 src/lib/include
 src/Build/android/obj
+src/Build/android/libs
