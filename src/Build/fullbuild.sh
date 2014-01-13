@@ -8,8 +8,7 @@ xcrun xcodebuild -project Box2D.xcodeproj -target Box2D-ios -configuration Debug
 cd ../android
 ndk-build -j 4
 rm -rf ../../../lib/android/*
-cp -rv libs/armeabi ../../../lib/android/armeabi
-cp -rv libs/armeabi ../../../lib/android/armeabi-v7a
+cp -rv libs/armeabi* ../../../lib/android/
 
 cd ..
 
