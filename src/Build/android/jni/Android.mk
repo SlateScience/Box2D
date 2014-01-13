@@ -53,4 +53,4 @@ LOCAL_SRC_FILES 	:= \
 ../../../Box2D/Dynamics/Joints/b2WheelJoint.cpp \
 ../../../Box2D/Rope/b2Rope.cpp \
 
-include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
