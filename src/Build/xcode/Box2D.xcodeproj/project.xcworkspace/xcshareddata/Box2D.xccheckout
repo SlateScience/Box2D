@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9543F9DD-D604-4A4A-83D2-B110EEC666A0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Box2D</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AD4B458D0D225ED63FAE0155615993B7D3ECE020</key>
+		<string>https://github.com/SlateScience/Cinder</string>
+		<key>AE74F776BB207680E79FE075FAA72223E66CEB47</key>
+		<string>https://github.com/SlateScience/Box2D</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/Build/xcode/Box2D.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AD4B458D0D225ED63FAE0155615993B7D3ECE020</key>
+		<string>../../../../../../..</string>
+		<key>AE74F776BB207680E79FE075FAA72223E66CEB47</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SlateScience/Box2D</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE74F776BB207680E79FE075FAA72223E66CEB47</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD4B458D0D225ED63FAE0155615993B7D3ECE020</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE74F776BB207680E79FE075FAA72223E66CEB47</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Box2D</string>
+		</dict>
+	</array>
+</dict>
+</plist>
